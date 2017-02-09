@@ -21,6 +21,8 @@ public class Main {
 
     get("/hello", (req, res) -> "Hello World");
 
+    get("/test1", (req, res) -> "First App Test");
+
     get("/", (request, response) -> {
         Map<String, Object> attributes = new HashMap<>();
         attributes.put("message", "Hello World!");
